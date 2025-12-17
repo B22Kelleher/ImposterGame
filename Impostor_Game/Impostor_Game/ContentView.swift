@@ -167,7 +167,7 @@ struct ContentView: View {
                         numberOfPlayers = String(newValue)
                         resizePlayerList(to: newValue)
                     }
-                ), in: 2...20) {
+                ), in: 2...8) {
                     Text(numberOfPlayers)
                         .foregroundColor(.white)
                 }
